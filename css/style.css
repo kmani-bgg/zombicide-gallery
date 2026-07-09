@@ -3,8 +3,8 @@
 }
 
 :root {
-  --card-min-width: 220px;
-  --card-gap: 12px;
+  --card-min-width: 340px;
+  --card-gap: 24px;
   --card-radius: 14px;
 
   --top-info-min-height: 70px;
@@ -24,8 +24,8 @@
 
 /* Size selector support */
 body.size-small {
-  --card-min-width: 200px;
-  --card-gap: 10px;
+  --card-min-width: 220px;
+  --card-gap: 12px;
   --visual-min-height: 360px;
   --overlay-spacer-height: 225px;
   --name-ko-size: 18px;
@@ -36,8 +36,8 @@ body.size-small {
 }
 
 body.size-medium {
-  --card-min-width: 220px;
-  --card-gap: 12px;
+  --card-min-width: 340px;
+  --card-gap: 24px;
   --visual-min-height: 400px;
   --overlay-spacer-height: 250px;
   --name-ko-size: 20px;
@@ -48,8 +48,8 @@ body.size-medium {
 }
 
 body.size-large {
-  --card-min-width: 250px;
-  --card-gap: 16px;
+  --card-min-width: 420px;
+  --card-gap: 28px;
   --visual-min-height: 455px;
   --overlay-spacer-height: 285px;
   --name-ko-size: 23px;
