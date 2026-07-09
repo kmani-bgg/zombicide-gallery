@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zombicide Survivors Gallery</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="size-medium">
+  <header class="page-header">
+<div>
+<h1 class="page-title">Zombicide Survivors Gallery</h1>
+<p class="summary" id="summary">Showing 116 of 116 survivors</p>
+</div>
+<div class="toolbar">
+<input class="search-input" id="searchInput" placeholder="Search character..." type="search"/>
+<select class="filter-select" id="categoryFilter">
+<option value="">All categories</option>
+</select>
+<select class="filter-select" id="roleFilter">
+<option value="">All roles</option>
+<option value="Melee">Melee</option>
+<option value="Ranged">Ranged</option>
+<option value="Magic">Magic</option>
+<option value="Support">Support</option>
+</select>
+<select class="filter-select" id="sizeSelect" title="Card size">
+<option value="size-small">Small 60%</option>
+<option selected="" value="size-medium">Medium 65%</option>
+<option value="size-large">Large 75%</option>
+</select>
+</div>
+</header>
+
+  <main id="gallery" class="gallery"></main>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

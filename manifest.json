@@ -1,0 +1,10 @@
+{
+  "name": "Zombicide Survivors Gallery",
+  "short_name": "Zombicide Gallery",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#171514",
+  "theme_color": "#171514",
+  "lang": "ko"
+}
